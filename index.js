@@ -17,7 +17,7 @@ app.use(express.json());
 app.get("/create", (req, res) => {
   //declaring current time and date using the format
 
-  let currenttime = format(new Date(), "dd-MM-yyyy-HH-mm-ss");
+  let currenttime = format(new Date(), "dd-MM-yyyy-hh-mm-ss");
   //console.log(currenttime);
 
   //adding content of file in the timestamp folder
