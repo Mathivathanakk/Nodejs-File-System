@@ -1,30 +1,20 @@
-Nodejs File System
-There are two endpoint :-
-Baseurl:-
-﻿https://nodejs-file-system-71wa.onrender.com﻿
-﻿
+<h1>Nodejs File System</h1>
+<h3>There are two endpoint :-</h3>
+</br>
+<p>Baseurl:-</p>
+</br>
+https://nodejs-file-system-71wa.onrender.com
 
-GET
+
+<h5>Endpoint</h5>
+</br>
 /create
 
-This create the text file of current date-time in a particular folder
-﻿
+<p>This create the text file of current date-time in a particular folder</p>
 
-Example
-createexample
-Request
-cURL
-curl --location '/create'
-200 OK
-Response
-Body
-Headers (7)
-html
-<span style="font-size:2rem;">27-05-2024-04-04-32</span>
-GET
+</br>
 /read
-/read
-This retrieve all the text files in the particular folder
-﻿
+<p>This retrieve all the text files in the particular folder</p>
+
 
 
